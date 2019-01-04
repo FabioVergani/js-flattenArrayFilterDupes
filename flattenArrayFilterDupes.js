@@ -1,5 +1,5 @@
-const filterArrayDupes=a=>a.filter((e,i,a)=>undefined!==e&&i===a.indexOf(e));
-const flattenArrayFilterDupes=(a,b=Number.MAX_VALUE)=>filteredArrayDupes(a.flat(b));
+const filterArrayDupes=a=>a.filter((e,i,a)=>undefined!==e&&i===a.indexOf(e)),
+flattenArrayFilterDupes=(a,b=Number.MAX_VALUE)=>filterArrayDupes(a.flat(b));
 
 
 /*
